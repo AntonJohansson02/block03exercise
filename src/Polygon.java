@@ -1,4 +1,14 @@
-public class Polygon {
+import java.awt.*;
+
+public class Polygon extends DrawPolygons{
+
+  private String name;
+  private Point centerPoint;
+
+  public Polygon(String name, Point centerPoint){
+    this.name = name;
+    this.centerPoint = centerPoint;
+  }
     /*
 
     TODO: For each step below, named STEP 1..5, do the following:
